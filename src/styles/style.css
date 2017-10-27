@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:400,700");
+html {
+  font-size: 62.5%; }
+
 body {
-  font-size: 62.5%;
   font-family: 'Josefin Sans', sans-serif;
-  height: 100vh;
   background: #990100; }
 
 a:link, a:visited, a:hover, a:active {
@@ -24,7 +25,7 @@ a:link, a:visited, a:hover, a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10%; }
+  padding-top: 10%; }
 
 .choice-button {
   border: none;
@@ -33,12 +34,12 @@ a:link, a:visited, a:hover, a:active {
   color: #FAFAFA;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.6rem;
   cursor: pointer;
   outline: none;
   text-transform: uppercase;
-  width: 13rem;
-  height: 3rem;
+  width: 16rem;
+  height: 5rem;
   margin-bottom: 2rem; }
 
 .cards-container {
@@ -57,14 +58,14 @@ a:link, a:visited, a:hover, a:active {
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
-  font-size: 1.2rem;
+  font-size: 2rem;
   justify-content: space-between;
   width: 30%;
   animation: .4s ease-out 0s cardRender; }
   .card-container h2 {
     margin: .9rem 0 .2rem 0; }
   .card-container h3 {
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-transform: uppercase;
     margin: 0; }
   @media (max-width: 1024px) {
@@ -97,14 +98,14 @@ a:link, a:visited, a:hover, a:active {
 
 .address {
   margin: .6rem;
-  font-size: .7rem; }
+  font-size: 1.2rem; }
 
 .take-me-there {
   background-color: #333333;
   border: none;
   cursor: pointer;
   color: #FAFAFA;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   outline: none;
@@ -113,7 +114,7 @@ a:link, a:visited, a:hover, a:active {
 
 .roading {
   color: #FAFAFA;
-  font-size: 2rem; }
+  font-size: 3rem; }
 
 .dot {
   display: inline-block;
@@ -133,4 +134,4 @@ a:link, a:visited, a:hover, a:active {
 
 .error {
   color: white;
-  font-size: 2rem; }
+  font-size: 3rem; }
